@@ -11,8 +11,8 @@ export const CallbackUseState = () => {
   };
 
   return (
-    <div>
-      <h2>Async</h2>
+    <div className="box">
+      <h2>Callback</h2>
       <button onClick={doubleIncreaseHandler}>Double Increase</button>
       <p>Count: {count}</p>
     </div>

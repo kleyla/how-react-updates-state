@@ -11,7 +11,7 @@ export const AsyncUseState = () => {
   };
 
   return (
-    <div>
+    <div className="box">
       <h2>Async</h2>
       <button onClick={doubleIncreaseHandler}>Double Increase</button>
       <p>Count: {count}</p>
